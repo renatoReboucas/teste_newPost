@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Teste</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.21/css/jquery.dataTables.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/header.css">
+  <link rel="stylesheet" href="./assets/css/menu-lateral.css">
+  <link rel="stylesheet" href="./assets/css/content.css">
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/3931c7733f.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+  <header>
+    
+    <div class="logout">
+      <span><a href="#">Logout <i class="fas fa-sign-out-alt"></i></a></span>
+    </div>
+    <nav>
+      <div class="logo">
+        <img class="img-logo" src="./assets/img/logo.png" alt="Logo">
+        <span class="txt-logo">Olá,C&A Modas</span>
+      </div>
+      <ul>
+        <li ><a href="#"><button class="btn-nav itens-menu">Geral</button></a></li>
+        <li ><a href="#"><button class="btn-nav itens-menu">Criados</button></a></li>
+        <li ><a href="#"><button class="btn-nav itens-menu">Fila</button></a></li>
+        <li ><a href="#"><button class="btn-nav itens-menu">Atrasados</button></a></li>
+        
+      </ul>
+    </nav>
+  </header>
+  <div class="container">
+
+    <div class="lateral-menu">
+      
+      <ul>
+        <li>
+          <a href="#">
+            <img src="./assets/img/dashboard.png" alt="table image,">
+            <p>Dashboard</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./assets/img/pedido.png" alt="doc imagem">
+            <p>Novo pedido</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./assets/img/qrCode.png" alt="qr code">
+            <p>Gerar etiqueta</p>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="content">
+      <div class="page-name">
+        <p class="title-name">Dashboard</p>
+        <span class="subtitle">Você esta vendo os seus pedidos criados</span>
+      </div>
+      
+      <table id="example" class="display responsive" style="width:100%">
+        <thead>
+          <tr>
+            <th>Número de controle</th>
+            <th>Cliente</th>
+            <th>Celular</th>
+            <th>E-mail</th>
+            <th>Valor da Nota</th>
+            <th>PIN</th>
+            <th>Gaveta</th>
+            <th>Descrição do produto</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody id="tbody">
+          
+          
+        </tbody>
+        <!-- <tfoot>
+          <tr>
+            <th>Name</th>
+            <th>Position</th>
+            <th>Office</th>
+            <th>Age</th>
+            <th>Start date</th>
+            <th>Salary</th>
+          </tr>
+        </tfoot> -->
+      </table>
+
+    </div>
+
+  </div>
+
+  
+  
+
+  
+
+  <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+  <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.js"></script>
+  <script src="./assets/api/todosPedidos.js"></script>
+  <script src="./assets/js/index.js"></script>
+</body>
+</html>

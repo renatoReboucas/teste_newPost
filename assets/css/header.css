@@ -1,0 +1,86 @@
+
+header ul{
+  display: flex;
+}
+header li{
+  margin: 0 15px;
+}
+
+header nav{
+  display: flex;
+  justify-content: space-around;
+}
+/* header nav ul{
+  margin-left: 40px;
+} */
+.btn-nav{
+  color: #646B73;
+  background-color: #353F49;
+  border: 1px solid #4C555E;
+  border-radius: 20px;
+  height: 40px;
+  width: 120px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+
+}
+.btn-nav:hover{
+  background-color: #465262;
+  color: #FFF;
+}
+.selecionado{
+  background-color: #465262;
+  color: #FFF;
+}
+ul li a{
+  margin: 0;
+}
+
+.logo{
+  display: flex;
+  /* justify-content: center; */
+}
+
+.txt-logo{
+  color: #FACB14;
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+.logout{
+  margin: 20px  30px;
+  font-size:  14px;
+  color: #FFF;
+  display: flex;
+  justify-content: flex-end;
+  
+}
+.logout a{
+  color: #FFF;
+  text-decoration:none; 
+}
+/* .logout span{
+  margin-right: 8px;
+} */
+
+
+/* Responsividade */
+/* @media(max-width: 480px){
+  header nav .logout{
+
+
+  }
+  header nav ul{
+
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 0;
+    height:  55px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+  }
+} */

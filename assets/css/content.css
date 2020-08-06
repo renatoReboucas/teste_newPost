@@ -1,0 +1,42 @@
+.content{
+  margin-left: 8%;
+}
+.title-name{
+  margin: 50px 0 0 0;
+  font-size: 20px;
+  font-weight: bold;
+}
+.subtitle{
+  font-size: 14px;
+  margin-bottom: 80px !important;
+}
+
+th{
+  font-size: 12px !important;
+}
+
+.content tbody{
+  color: #000 !important;
+  background-color: #353F49 !important;
+}
+
+.dataTables_length{
+  display: none;
+}
+
+
+thead{
+  color: #868686 !important;
+}
+#example_filter #example_info{
+  color: #FFF !important;
+}
+#example_info{
+  color: #FFF !important;
+}
+#example_previous{
+  color: #FFF !important;
+}
+#example_next{
+  color: #FFF !important;
+}
